@@ -16,7 +16,7 @@
 #define SYS_dgrant    292
 #define SYS_read_cap  294
 #define SYS_write_cap 295
-#define CC_CAP_THRESHOLD_SIZE 1024
+#define CC_CAP_THRESHOLD_SIZE 1024*1024
 
 typedef enum cc_perm_flags {
     READ = 1,
